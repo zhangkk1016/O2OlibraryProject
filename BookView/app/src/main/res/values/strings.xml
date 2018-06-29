@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Book</string>
+    <string name="et_login_user_id">学号：</string>
+    <string name="et_login_user_name">姓名：</string>
+    <string name="bt_login">登录</string>
+    <string name="btn_fragment_mine">我的</string>
+    <string name="btn_fragment_market">市场</string>
+    <string name="btn_search">搜索</string>
+    <string name="et_book_id">书id</string>
+    <string name="btn_publish">发布</string>
+    <string name="btn_operate">操作</string>
+    <string name="friend_bok_all">朋友书单</string>
+    <string name="friend_book_release">朋友发布中书单</string>
+    <string name="tv_add_new_friend">添加新朋友</string>
+    <string name="tv_fragment_new_list">申请列表</string>
+    <string name="tv_name">姓名</string>
+    <string name="tv_student_id">学号</string>
+    <string name="tv_phone">电话</string>
+    <string name="tv_book">已借书籍</string>
+    <string name="btn_borrow">借书</string>
+    <string name="str_delete_friend">删除好友</string>
+    <string name="tv_phone_">电话：</string>
+    <string name="tv_message">留言：</string>
+    <string name="btn_agree">同意</string>
+    <string name="btn_refuse">拒绝</string>
+    <string name="et_hint_student_id">学号</string>
+    <string name="btn_add">添加</string>
+    <string name="str_item_borrow_book">借书/还书</string>
+    <string name="str_borrow_book">借书</string>
+    <string name="str_return_book">还书</string>
+    <string name="str_un_login">退出登录</string>
+</resources>

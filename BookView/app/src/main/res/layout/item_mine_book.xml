@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_item_mine_book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/tv_item_mine_book_status"
+        android:layout_width="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+    <Button
+        style="@style/commBtn"
+        android:id="@+id/btn_item_return_book"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/str_return_book"/>
+
+    <Button
+        style="@style/commBtn"
+        android:id="@+id/btn_item_mine_book"
+        android:layout_width="0dp"
+        android:layout_margin="5dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/btn_publish"/>
+</LinearLayout>
