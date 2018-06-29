@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.MyListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReleaseServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.ReleaseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchBookServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.SearchBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PostMessageByBorrowerServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.PostMessageByBorrowerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ObserveServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.ObserveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.MessageListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowerComfirmServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.BorrowerComfirmServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnnerComfirmServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.OwnnerComfirmServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowerFinishServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.BorrowerFinishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnnerFinishServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.OwnnerFinishServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendBookListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendBookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendReleaseBookListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendReleaseBookListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendAddServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendApplyListServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendApplyListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendAllowServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendAllowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendInformationServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendDeleteServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FriendSearchServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.FriendSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BorrowServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.BorrowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GiveBackServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.GiveBackServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.QueryBookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchBookAllServlet</servlet-name>
+    <servlet-class>cn.hnust.book.servlet.SearchBookAllServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyListServlet</servlet-name>
+    <url-pattern>/myList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReleaseServlet</servlet-name>
+    <url-pattern>/release</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBookServlet</servlet-name>
+    <url-pattern>/searchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostMessageByBorrowerServlet</servlet-name>
+    <url-pattern>/postMessageByBorrower</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ObserveServlet</servlet-name>
+    <url-pattern>/observe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageListServlet</servlet-name>
+    <url-pattern>/messageList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowerComfirmServlet</servlet-name>
+    <url-pattern>/borrowerComfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnnerComfirmServlet</servlet-name>
+    <url-pattern>/ownnerComfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowerFinishServlet</servlet-name>
+    <url-pattern>/borrowerFinish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnnerFinishServlet</servlet-name>
+    <url-pattern>/ownnerFinish</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendBookListServlet</servlet-name>
+    <url-pattern>/friendBookList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendReleaseBookListServlet</servlet-name>
+    <url-pattern>/friendReleaseBookList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendListServlet</servlet-name>
+    <url-pattern>/friendList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendAddServlet</servlet-name>
+    <url-pattern>/friendAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendApplyListServlet</servlet-name>
+    <url-pattern>/friendApplyList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendAllowServlet</servlet-name>
+    <url-pattern>/friendAllow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendInformationServlet</servlet-name>
+    <url-pattern>/friendInformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendDeleteServlet</servlet-name>
+    <url-pattern>/friendDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FriendSearchServlet</servlet-name>
+    <url-pattern>/friendSearch</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BorrowServlet</servlet-name>
+    <url-pattern>/borrow</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GiveBackServlet</servlet-name>
+    <url-pattern>/giveBack</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryBookServlet</servlet-name>
+    <url-pattern>/queryBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBookAllServlet</servlet-name>
+    <url-pattern>/searchBookAll</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
